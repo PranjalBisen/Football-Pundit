@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .sidebar-title {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    color: #ffffff;
+  }
+  .sidebar-section {
+    color: #ddd;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  .sidebar-list {
+    list-style: none;
+    padding-left: 0;
+  }
+  .sidebar-list li {
+    background: rgba(255,255,255,0.05);
+    margin: 0.4rem 0;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 0.95rem;
+    color: #eee;
+  }
+  .sidebar-list li:hover {
+    background: rgba(255,255,255,0.15);
+    transform: scale(1.03);
+  }
+  
+  .main-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    background: linear-gradient(135deg, #1a3c6e, #285ca4);
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    animation: fadeInDown 0.8s ease-out;
+  }
+  .main-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .main-header h3 {
+    font-weight: 400;
+    opacity: 0.9;
+  }
+  
+  .chat-welcome {
+    background: #1e472d;
+    padding: 1.5rem;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 1rem;
+    margin: 1.5rem auto;
+    max-width: 800px;
+    animation: fadeInUp 0.8s ease-out;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    color: #ccc;
+    border-top: 1px solid #333;
+  }
+  
+  @keyframes fadeInDown {
+    from {opacity: 0; transform: translateY(-30px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+  @keyframes fadeInUp {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
