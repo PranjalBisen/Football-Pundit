@@ -20,7 +20,6 @@ def create_sidebar():
         </ul>
         """, unsafe_allow_html=True)
 
-        # Featured Topics
         st.markdown("<h3 class='sidebar-section'>Featured Topics</h3>", unsafe_allow_html=True)
         st.markdown("""
         <ul class="sidebar-list">
