@@ -20,7 +20,7 @@ class ChatInterface:
                         f"<div class='user-message'>🤔 <b>You:</b> {message['content']}</div>",
                         unsafe_allow_html=True
                     )
-                    st.markdown("<br>", unsafe_allow_html=True)  # gap
+                    st.markdown("<br>", unsafe_allow_html=True) 
             else:
                 with st.container():
                     st.markdown(
